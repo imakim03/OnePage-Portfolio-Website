@@ -3,7 +3,6 @@
 This is a customizable portfolio website built with React. It allows you to display your projects, skills, and contact information in a professional format. 
 The design is responsive and includes smooth animations, this template is perfect for developers, designers, or anyone looking to establish an online presence.
 
-<<<<<<< HEAD
 **Live Demo**: [Link](https://imakim03.github.io/OnePage-Portfolio-Website/)
 
 ## Screenshots
