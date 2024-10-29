@@ -1,0 +1,59 @@
+#sectionTwo{
+    display: flex;
+    align-items: start;
+    justify-content:flex-end;
+    flex-direction: column;
+    font-family: MainFont;
+}
+
+/* ------------ carousel -------------- */
+.projectCard {
+    position: relative;
+    width: 100%;
+}
+
+.projectImage {
+    position: relative;
+    border-radius: var(--border-radius);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border-radius: var(--border-radius);
+  }
+  
+  .projectCard:hover .overlay {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .projectInfo h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .projectInfo p {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+
+  .projectDate {
+    position: absolute;
+    bottom: 20px;
+    right: 0%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    z-index: 1;
+  }

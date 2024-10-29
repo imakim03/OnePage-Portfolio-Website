@@ -1,0 +1,50 @@
+.navbar {
+  position: fixed;
+  grid-area: nav;
+  width: 100%;
+  top: 0;
+  padding: 1rem;
+  font-family: MainFont;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+#logo{
+  color: var(--font-color);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  transition: all 0.4s ease;
+}
+
+.menuIcon{
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar ul{
+    display: none;
+  }
+
+  .menuIcon{
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .navbar ul{
+    display: none;
+  }
+
+  .menuIcon{
+    display: flex;
+  }
+}
